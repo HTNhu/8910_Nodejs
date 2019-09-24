@@ -96,7 +96,7 @@ function updateItem(body ,res) {
         TableName: 'Magazine',
         Key: {
             "id": String(id),
-            "newsTitle": Number(newsTitle)
+            "newsTitle": String(newsTitle)
         },
         UpdateExpression: "set #p = :publishDate, #a = :author, #c = :content, #i = :image",
         ExpressionAttributeNames: {

@@ -1,6 +1,5 @@
 const express = require('express')
 const bodyParse = require('body-parser')
-const url = require('url')
 require('dotenv').config()
 const form_function = require('./Function_form')
 const aws_function = require('./Function_aws')
@@ -43,7 +42,6 @@ app.get('/edit', function(req,res){
     form_function.displayEditForm(req.query, res)
 })
 app.post('/save', function(req,res){
-    // const { id, newsTitle } = req.query
     console.log(req.body)
     aws_function.updateItem(req.body, res);
 })

@@ -18,7 +18,9 @@ function listTable(obj, res) {
         }
         obj.data.Items.forEach((magazine) => {
             res.write(`<tr><td style="display:none">${magazine.id}</td><td>${magazine.newsTitle}</td>
-                        <td>${magazine.publishDate}</td><td>${magazine.author.authorName}</td>
+                        <td>${magazine.publishDate}</td><td><p>Name: ${magazine.author.authorName}</p>
+                        <p>Title: ${magazine.author.authorTitle}</p>
+                        <p>Address: ${magazine.author.authorAddress}</p></td>
                         <td><img style="width:30px; height:40px" src="${magazine.image}"/></td>
                         <td><a href="/edit?id=${magazine.id}&newsTitle=${magazine.newsTitle}&authorName=${magazine.author.authorName}&authorTitle=${magazine.author.authorTitle}&authorAddress=${magazine.author.authorAddress}&publishDate=${magazine.publishDate}&content=${magazine.content}&image=${magazine.image}">Edit</a>
                         <a href="/delete?id=${magazine.id}&newsTitle=${magazine.newsTitle}" >Delete</a></td></tr>`);
@@ -35,7 +37,6 @@ function createNewForm(res) {
 function displayEditForm(body, res) {
     let data = fs.readFileSync('./Views/EditForm.html', 'utf-8');
     res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.write(data);
     const { id, newsTitle, content, publishDate, authorName, authorTitle, authorAddress, image } = body
     data = replaceIDValue(data, id);
     data = replaceNewsTiltleValue(data, newsTitle);
