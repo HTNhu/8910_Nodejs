@@ -1,0 +1,63 @@
+
+[
+    {
+      "author": "Chinua Achebe",
+      "type": "Nigeria",
+      "name": "Things Fall Apart",
+      "year": 1958
+    },
+    {
+      "author": "Hans Christian Andersen",
+      "type": "Denmark",
+      "name": "Fairy tales",
+      "year": 1836
+    },
+    {
+      "author": "Dante Alighieri",
+      "type": "Italy",
+      "name": "The Divine Comedy",
+      "year": 1315
+    },
+    {
+      "author": "Unknown",
+      "type": "Sumer and Akkadian Empire",
+      "name": "The Epic Of Gilgamesh",
+      "year": -1700
+    },
+    {
+      "author": "Unknown",
+      "type": "Achaemenid Empire",
+      "name": "The Book Of Job",
+      "year": -600
+    },
+    {
+      "author": "Unknown",
+      "type": "India/Iran/Iraq/Egypt/Tajikistan",
+      "name": "One Thousand and One Nights",
+      "year": 1200
+    },
+    {
+      "author": "Unknown",
+      "type": "Iceland",
+      "name": "Nj\u00e1l's Saga",
+      "year": 1350
+    },
+    {
+      "author": "Jane Austen",
+      "type": "United Kingdom",
+      "name": "Pride and Prejudice",
+      "year": 1813
+    },
+    {
+      "author": "Honor\u00e9 de Balzac",
+      "type": "France",
+      "name": "Le P\u00e8re Goriot",
+      "year": 1835
+    },
+    {
+      "author": "Samuel Beckett",
+      "type": "Republic of Ireland",
+      "name": "Molloy, Malone Dies, The Unnamable, the trilogy",
+      "year": 1952
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "01895524-dd42-11e9-8a34-2a2ae2dbcce4",
+        "author": {
+            "authorTitle": "aaa", 
+            "authorName": "Chinua Achebe",
+            "authorAddress": "bbbb"
+        },
+        "newsTitle": "Nigeria",
+        "publishDate": "2019-07-07",
+        "image": "https://secure.static.meredith.com/crt/store/covers/backIssues/ewk/2019/EW20190419A_l.jpg",
+        "content": "aBC"
+    },
+    {
+        "id": "01895970-dd42-11e9-8a34-2a2ae2dbcce4",
+        "author": {
+            "authorTitle": "hings Fall apart", 
+            "authorName": "Hans Christian andersen",
+            "authorAddress": "Denmark"
+        },
+        "newsTitle": "Things Fall Apart",
+        "publishDate": "2019-09-09",
+        "image": "https://covers.magazinecloner.com/covers/160325.jpg",
+        "content": "Fairy tales"
+    },
+    {
+        "id": "01895b96-dd42-11e9-8a34-2a2ae2dbcce4",
+        "author": {
+            "authorTitle": "hings Fall apart", 
+            "authorName": "Dante alighieri",
+            "authorAddress": "Italy"
+        },
+        "newsTitle": "The Divine Comedy",
+        "publishDate": "2019-08-08",
+        "image": "https://covers.magazinecloner.com/covers/182668.jpg",
+        "content": "Fairy tales"
+    }
+]

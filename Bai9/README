@@ -1,0 +1,9 @@
+aws configure
+dynamodblocal
+
+cd DynamoDB
+node CreateTable.js
+node PutData.js
+
+cd Bai8
+node App.js
