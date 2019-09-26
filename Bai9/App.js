@@ -44,7 +44,6 @@ app.get('/edit', function (req, res) {
   res.end();
 })
 app.post('/save', function (req, res) {
-  author = req.body.author
   const { year, name, type, author } = req.body
   aws_function.updateItem(year, name, type, author, res);
 })
